@@ -7,15 +7,16 @@
 //     font-style: normal;
 // }
 
-
-$mainFontFamily: Helvetica, sans-serif;
+$ubuntu: Ubuntu;
+$mainFontFamily: $ubuntu, Helvetica, sans-serif;
 
 //
 //colors
 //
 
-
-$text: #1c1c1c;
+$green: #50b848;
+$purple: #521e84;
+$text: #292929;
 
 //
 //medias

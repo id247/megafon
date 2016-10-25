@@ -38,17 +38,43 @@
 		}
 	}
 
+
+
+	&--green{
+		background: $green;
+		color: #fff;
+		&:hover{
+			background: lighten($green, 5%);
+		}
+		&:active{
+			background: darken($green, 5%);
+		}
+	}
+
+
+	&--purple{
+		background: $purple;
+		color: #fff;
+		&:hover{
+			background: lighten($purple, 5%);
+		}
+		&:active{
+			background: darken($purple, 5%);
+		}
+	}
+
 	&--m{
-		border-radius: 8px;
+		border-radius: 0px;
 		font-weight: 700;
-		font-size: 12px;
-		padding: 8px 20px 8px;
+		font-size: 20px;
+		padding: 16px 36px 16px;
+		text-transform: uppercase;
 	}
 
 	&--l{
-		border-radius: 8px;
+		border-radius: 0px;
 		font-weight: 700;
-		font-size: 15px;
+		font-size: 25px;
 		padding: 10px 20px 10px;
 	}
 
