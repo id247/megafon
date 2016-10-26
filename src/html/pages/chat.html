@@ -5,8 +5,30 @@
 <section class="container__section section comments-section" id="comments-section">
 	
 	<div class="section__wrap comments-section__wrap">
+		
+		@@if (server === 'local'){
+		
+		<div id="comments" data-appKey="5123975fe9eb415390fb7aa316a15e4e"></div><!-- /#comments -->
 
-		<div id="comments"></div><!-- /#comments -->
+		}
+		
+		@@if (server === 'dnevnik'){
+		
+		<div id="comments" data-appKey="249391fcbedc4f398bf1d47f56e5f2d6"></div><!-- /#comments -->
+
+		}
+		
+		@@if (server === 'local'){
+
+		<script src="assets/comments/js/comments-staging.min.js"></script>
+
+		}
+		
+		@@if (server === 'dnevnik'){
+
+		<script src="assets/comments/js/comments-dnevnik.min.js"></script>
+		
+		}
 	
 	</div> <!-- /.comments-section__wrap -->
 
